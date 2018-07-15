@@ -1,7 +1,76 @@
-body{background-color: #efeee7; font-family: "Georgia", Times New Roman, Times, serif; color: #333333; margin: 0px
+body {
+    background-color: lightgray;
 }
-header{background-color: #333333; color: #eee; font-size: 28px; padding: 1%}
-h2{font-size: 24px; margin: 0 auto;}
-#main-bio{float: left;width: 70%}
-#contact-info{float: left;}
-#bio-image{float: left; width: 200px;}
+
+h1 {
+     color: rgba(19, 167, 162, 0.849);
+     background-color: white;
+     font-family: times new roman;
+     font-weight: bold;
+}
+
+h3 {
+     color: rgba(19, 167, 162, 0.849);
+     background-color: transparent;
+     font-family: times new roman;
+     font-weight: bold;
+}
+
+img {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+p {
+   font-family: sans-serif;
+   font-size: 12
+}
+
+.container {
+  background-color: white;
+}
+
+.navbar {
+         padding-left: 50px;
+}
+
+.navbar-brand {
+background-color: rgba(19, 167, 162, 0.849);
+font-family: times new roman;
+font-weight: bold;
+color: white !important;
+}
+
+@media (max-width:767px) {
+.navbar {background-color: rgba(19, 167, 162, 0.849);}
+
+}
+.navbar-brand {
+background-color: rgba(19, 167, 162, 0.849);
+font-family: times new roman;
+font-weight: bold;
+color: rgba(19, 167, 162, 0.849);
+}
+/*footer{
+    div {border-top-color:rgba(19, 167, 162, 0.849)}
+    position: relative;
+    /* height: 180px; 
+    clear: both;
+    background-color: rgba(48, 47, 47, 0.24)
+}*/
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: #535353;
+    border-top: solid 4px rgba(19, 167, 162, 0.849);
+  }
+  
+  .footer p {
+    margin-top: 10px;
+    color: white
+  }
+  
